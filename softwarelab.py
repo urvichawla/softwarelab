@@ -42,11 +42,11 @@ class EmployeeTable:
 
 table = EmployeeTable()
 
-table.add_employee(Employee("161E90", "Raman", 41, 56000))
-table.add_employee(Employee("161F91", "Himadri", 38, 67500))
-table.add_employee(Employee("161F99", "Jaya", 51, 82100))
-table.add_employee(Employee("171E20", "Tejas", 30, 55000))
-table.add_employee(Employee("171G30", "Ajay", 45, 44000))
+table.add_employee(Employee("161E90", "Ramann", 41, 56000))
+table.add_employee(Employee("161F91", "Himadrii", 38, 67500))
+table.add_employee(Employee("161F99", "Jayaa", 51, 82100))
+table.add_employee(Employee("171E20", "Tejasvi", 30, 55000))
+table.add_employee(Employee("171G30", "Ajaya", 45, 44000))
 
 sorting_option = int(input("Enter the sorting number: "))
 table.sort_table(sorting_option)
